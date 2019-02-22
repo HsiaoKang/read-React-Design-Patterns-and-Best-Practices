@@ -1,0 +1,34 @@
+{
+  "name": "read-reactdesignpatternsandbestpractices",
+  "version": "1.0.0",
+  "description": "[TOC]",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node ./dist/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HsiaoKang/read-ReactDesignPatternsAndBestPractices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HsiaoKang/read-ReactDesignPatternsAndBestPractices/issues"
+  },
+  "homepage": "https://github.com/HsiaoKang/read-ReactDesignPatternsAndBestPractices#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "webpack": "^4.29.5",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  }
+}
